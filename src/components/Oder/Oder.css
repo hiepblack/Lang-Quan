@@ -1,0 +1,25 @@
+.oders {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.oderss {
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.title {
+    font-size: 20px;
+    color: rgb(92, 192, 52);
+    text-transform: uppercase;
+    border: 1px solid rgb(92, 192, 52);
+    width: 76.5%;
+    margin: 10px auto;
+    padding: 10px 10px;
+}
