@@ -1,14 +1,26 @@
 import React from 'react';
-import img from '../../img/sanpham1.png'
+import { useState } from 'react';
 import './Card.css'
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const Card = (props) => {
+    const [background, setBackground] = useState("");
+    function handleBoxClick() {
+        if (!background) {
+            setBackground('red');
+        } else {
+            setBackground('');
+        }
+    }
     return (
         <div className="card">
-            <div className="card_heart">
-                <FavoriteBorderIcon />
+            <div className="card_heart"
+            >
+                <FavoriteIcon
+                    style={{ color: background }}
+                    onClick={handleBoxClick}
+                />
             </div>
             <div className="card_cart">
                 <ShoppingCartIcon />

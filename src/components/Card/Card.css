@@ -25,6 +25,7 @@
     top: 15px;
     z-index: 1;
     cursor: pointer;
+    overflow: hidden !important;
 
 }
 
