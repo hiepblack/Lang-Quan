@@ -12,6 +12,7 @@ const Cards = () => {
                         img={item.img}
                         title={item.title}
                         price={item.price}
+                        description={item.description}
                     />
                 )
             })}

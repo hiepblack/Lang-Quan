@@ -13,40 +13,48 @@ export const dataSanpham = [
         img: img1,
         title: "Coffe",
         price: 100,
+        description: "Day la san pham"
+    },
+    {
+        img: img1,
+        title: "Tra Sua",
+        price: 200,
+        description: "Day la san pham tra sua"
     },
     {
         img: img1,
         title: "Coffe",
         price: 100,
+        description: "Day la san pham"
     },
     {
         img: img1,
         title: "Coffe",
         price: 100,
+        description: "Day la san pham"
     },
     {
         img: img1,
         title: "Coffe",
         price: 100,
+        description: "Day la san pham"
     },
     {
         img: img1,
         title: "Coffe",
         price: 100,
+        description: "Day la san pham"
     },
     {
         img: img1,
         title: "Coffe",
         price: 100,
+        description: "Day la san pham"
     },
     {
         img: img1,
         title: "Coffe",
         price: 100,
-    },
-    {
-        img: img1,
-        title: "Coffe",
-        price: 100,
+        description: "Day la san pham"
     },
 ]
